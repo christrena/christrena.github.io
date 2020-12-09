@@ -1,0 +1,61 @@
+.carousel-item{
+	height: 400px;
+}
+.carousel text {
+	background color: rgba(0,0,0,-1);
+}
+.container{
+	background color: rgba(255,255,255,1);
+}
+.carousel-item .display-4 {
+	margin-top: -200px;
+}
+.carousel-item .btn {
+	background-color: #F05F40;
+	border: none;
+	border-radius: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-top: 20px;
+}
+.carousel-item hr {
+	border-color: #F05F40;
+	width: 70px;
+	border-width: 3px;}
+.uwu {
+	border: none;
+	margin-top: 20px;
+	float: left;
+}
+.container2{
+	height: 1000px;
+	width:2000px;
+	background-color: rgba(0,0,0,-1);
+	
+}
+.card {
+margin-top: 50px;
+float: left;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+img.bg{
+	opacity: 40%;
+}
+
+.tombol{
+	outline: none;
+	border:none;
+	border-radius: 10px;
+	padding:1% 5% 1% 5%;
+	width: 40%;
+	background-color: #F05F40;
+	color: white;
+	font-size: 18px;
+}
+
+.tombol:hover{
+	background-color:rgb(218, 124, 0);
+    color: rgb(255, 255, 255);
+}

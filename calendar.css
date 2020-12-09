@@ -1,0 +1,92 @@
+body {
+    background-color:#ffffff;
+  }
+  
+  .cal {
+    width:315px; 
+    background:#332f2e; 
+    border-radius:5px; 
+    overflow:hidden; 
+    display:block; 
+    margin-bottom:10px; 
+    box-shadow:0 0 0px #201d1c; 
+    margin-left: 5%;
+    margin-top:10%;
+    border: 1px solid #000000;
+  }
+  
+  .dar {
+    padding:0 10px 10px 5px; 
+    
+    background-color:#ffffff; 
+
+  }
+  
+  .calendar {
+    font:26px 'calibri';
+    font-weight:700; 
+    color:#000000; 
+    display:block; 
+    margin:18px 0 0 0; 
+    text-transform:; 
+    text-align:center; 
+    letter-spacing:1px;
+  }
+  
+  .dar span {
+    font:15px 'calibri'; 
+    font-weight:400; 
+    color:#000000; 
+    text-align:center; 
+    width:42px; 
+    height:42px; 
+    display:inline-block; 
+    float:left; 
+    overflow:hidden; 
+    line-height:40px;
+  }
+  
+  .dar .hari:before {
+    opacity:0.3; 
+    content:'-';
+  }
+  
+  .circle {
+    border:1px solid #f7f3eb; 
+    box-sizing:border-box!important; 
+    border-radius:200px!important;
+  }
+  
+  span[data-title]:hover:after, 
+  div[data-title]:hover:after {
+    font:11px 'calibri'; 
+    font-weight:400; 
+    content:attr(data-title); 
+    position:absolute; 
+    margin:0 0 100px; 
+    background:#282423; 
+    border:1px solid #f7f3eb; 
+    color:#f7f3eb; 
+    padding:5px; 
+    z-index:9999; 
+    min-width:150px; 
+    max-width:150px;
+  }
+
+  .tombol{
+      background-color:orangered;
+      color: white;
+      border:none;
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      font-size: 20px;
+      
+      border-radius: 10px;
+  }
+
+  .tombol:hover{
+    background-color:rgb(218, 124, 0);
+    color: rgb(255, 255, 255);
+  }

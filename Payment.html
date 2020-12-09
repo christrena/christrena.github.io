@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+        <title>Payment</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+        <link rel="stylesheet" type="text/css" href="payment.css">
+    
+        <script src="https://kit.fontawesome.com/e249f984d9.js" crossorigin="anonymous"></script>
+    </head>
+    <body style="background-color:rgb(137, 186, 172);size: 100%;">
+        <!--Navigasi-->
+
+        <nav class="navbar navbar-expand-lg navbar-color  fixed-top" id="MainNav" style="background-color: rgb(87, 86, 86);">
+            <a class="navbar-brand" style="color: white;" href="index.html">Hands On!</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                <a class="nav-link js-scroll-trigger"style="color: white;"href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" style="color: white;" href="form.html">Sign up</a>
+                </li>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="color: white;"href="#" id="navbarDropdown" role="button" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> menu
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="workshop.html">Workshop</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="market.html">Shop</a>
+                </div>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" style="color: white;"href="cart.html">Purchase</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+        
+        </nav>
+        <!--Body-->
+        <div style="background-color: white; margin-left: 4%; margin-right: 4%;height: 800px;">
+            <div>
+            <h1 style="padding-top: 8%; font-family: 'Times New Roman', Times, serif;" align="center"><b>Payment Details</b></h1>
+            </div>
+            <div class="col-md"align="center">
+            <div class="row" style="margin-top: 5%;  width:40%; ">
+               <div class="col" style="border: 1px solid black; margin-right: 1%; border-radius: 10px;">
+                    <img src="../bootstrap/american-express1.png" alt="" width="100%" style="">
+                </div>
+                <div class="col" style="border: 1px solid black; border-radius: 10px;">
+                    <img src="../bootstrap/mcard1.png" alt="" width="100%" >
+                </div>
+                <div class="col" style="border: 1px solid black; margin-left: 1%; border-radius: 10px;">
+                    <img src="../bootstrap/visa1.png" alt="" width="100%" >
+                </div>
+            </div>
+            </div>
+            <div  >
+                <div  align="center" style="margin-top: 1%; ">
+                <label  for="Card number" style="text-align: start; margin-left: -50.5%; font-size: 20px"> Card number </label><br>
+                    <input type="text" name="nomor_kartu" id="no_kartu" placeholder="**************"style="width:60%; padding:0.5%;border-radius: 10px;
+                    border: 1px solid black;" >
+                </div>
+                <div align="center" style="margin-top: 1%; ">
+                <label  for="Card number" style="text-align: start; margin-left: -46.3%; font-size: 20px" > Cardholder's Name </label><br>
+                    <input type="text" name="nomor_kartu" id="no_kartu" placeholder="Your Name" style="width:60%; padding:0.5%;border-radius: 10px;  border: 1px solid black;" >
+                </div>
+                <div class="col-md" style="margin-top: 1%;">
+                <div class="row" style="margin-left:19.3%">
+                <div class="" style="margin-right: 0%;" >
+                    <label  for="Card number" style="text-align: start; font-size: 20px" > Valid Until </label><br>
+                        <input type="text" name="nomor_kartu" id="no_kartu" placeholder="Month/Year" style="padding: 3%;border-radius: 10px;  border: 1px solid black;" >
+                    </div>
+                    <div class="" style="margin-left: 1%; " >
+                        <label  for="Card number" style="font-size: 20px"> CCV </label><br>
+                            <input type="text" name="nomor_kartu" id="no_kartu" placeholder="****" style="padding: 3%;border-radius: 10px;  border: 1px solid black;" >
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-left: 20%; margin-top: 2%;">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"> 
+                        </span>     
+                    </label> <span style="font-size: 20px; margin-left: 1%; margin-top: -1%;">Save credit card information</span>
+                </div>
+                <div align="center" style="margin-top: 5%;">
+                    
+                        <button id="myBtn" class="confirm">Confirm</button>
+                        <div id="myModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>Payment Success</p>
+                                <a href="index.html" class="btn btn-primary btn-lg" role="button" style="background-color: orangered; border: none;">OK </a>
+                              </div>
+                        </div>
+                   
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+         <footer class="page-footer bg-color" style="height: 65px; background-color: rgb(73, 99, 91);">
+           <div style="margin-top: 0%;" >
+               <div class="col-md" style="">
+                 <div class="row" >
+                   <div class="col-sm-7" style=" margin-top: 1.5%;">
+                       <h6 style="margin-left: 4%; margin-top: %; font: 22px times-new-roman; color:white">Copyright</h6>
+                     </div>
+         
+                     <div class="col-sm-auto" style=" margin-top: 1.5%; " >
+                       <h6 style="margin-left: %; margin-top: %; font: 22px sans-serif; color:white">Contact us</h6>
+                     </div>
+         
+                     <div class="col-sm-auto" style=" margin-top: 1.5%;">
+                       <h6 style="margin-left: 0%; margin-top: %; font: 22px sans-serif; color:white">Live Chat</h6>
+                     </div>
+         
+                     <div class="col-sm-auto" style=" margin-top: 1.5%;">
+                       <h6 style="margin-left: 0%; margin-top: %; font: 22px sans-serif; color:white">FAQ</h6>
+                     </div>
+         
+                     <div class="col-sm-auto" style=" margin-top: 1.5%;">
+                       <h6 style="margin-left: %; margin-top: %; font: 22px sans-serif; color:white">Our Social Media</h6>
+                     </div>
+         
+                 </div>
+               </div>
+           </div>
+         </footer>
+    </body>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
+</html>
